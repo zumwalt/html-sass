@@ -1,0 +1,27 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../scss/screen.scss */
+.editor-container {
+  background: #000;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  /* line 15, ../scss/screen.scss */
+  .editor-container .editor {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    opacity: 0.85;
+    top: 0;
+    width: 50%; }
+    /* line 23, ../scss/screen.scss */
+    .editor-container .editor.ace_focus {
+      opacity: 1; }
+    /* line 26, ../scss/screen.scss */
+    .editor-container .editor:last-child {
+      left: 50%; }
